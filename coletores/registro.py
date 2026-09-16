@@ -1,7 +1,9 @@
 from .agentes.reativo import ReativoSimples
+from .agentes.modelo import BaseadoEmModelos
 
 FABRICAS = {
     "reativo": ReativoSimples,
+    "modelo": BaseadoEmModelos,
 }
 
 
